@@ -19,6 +19,7 @@ QtdNumeros(n)
 // 2° Exercício
 let JaoUrso = setInterval(lancamento, 1000) 
 let contagem = 10;
+
 function lancamento() {
     if (contagem >= 0){
         console.log(contagem);
